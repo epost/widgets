@@ -4,7 +4,7 @@ organization := "net.liftmodules"
 
 version := "1.4-SNAPSHOT"
 
-liftVersion <<= liftVersion ?? "2.5"
+liftVersion <<= liftVersion ?? "2.6-M1"
 
 liftEdition <<= liftVersion apply { _.substring(0,3) }
 
